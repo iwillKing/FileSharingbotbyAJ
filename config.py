@@ -1,8 +1,8 @@
 import os
 
 API_ID = int(os.getenv("API_ID", "26910777"))
-API_HASH = os.getenv("API_HASH", "PASTE_NEW_API_HASH_HERE")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PASTE_BOT_TOKEN_HERE")
+API_HASH = os.getenv("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 OWNER_ID = int(os.getenv("OWNER_ID", "5232142502"))
 
 START_IMAGES = [
