@@ -210,7 +210,5 @@ async def del_channel(client, message):
 # ---------------- MAIN ----------------
 
 if __name__ == "__main__":
-    threading.Thread(target=run_health_server).start()
-    app.start()
     print("Bot Starting...")
     app.run()
